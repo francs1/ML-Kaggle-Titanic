@@ -1,0 +1,84 @@
+PassengerId => 乘客ID
+Pclass => 乘客等级(1/2/3等舱位)
+Name => 乘客姓名
+Sex => 性别
+Age => 年龄
+SibSp => 堂兄弟/妹个数
+Parch => 父母与小孩个数
+Ticket => 船票信息
+Fare => 票价
+Cabin => 客舱
+Embarked => 登船港口
+
+Workflow stages
+	Question or problem definition.
+	Acquire training and testing data.
+	Wrangle, prepare, cleanse the data.
+	Analyze, identify patterns, and explore the data.
+	Model, predict and solve the problem.
+	Visualize, report, and present the problem solving steps and final solution.
+	Supply or submit the results.
+
+Question and problem definition
+
+Workflow goals
+
+Acquire data
+
+Analyze by describing data
+	Which features are available in the dataset?
+	Which features are categorical?
+	Which features are numerical?
+	Which features are mixed data types?
+	Which features may contain errors or typos?
+	Which features contain blank, null or empty values?
+	What are the data types for various features?
+	What is the distribution of numerical feature values across the samples?
+	What is the distribution of categorical features?
+	Assumtions based on data analysis
+		Correlating.
+		Completing.
+		Correcting.
+		Creating.
+		Classifying.
+
+Analyze by pivoting features
+
+Analyze by visualizing data
+	Correlating numerical features
+		Observations.
+		Decisions.
+	Correlating numerical and ordinal features
+		Observations.
+		Decisions.
+	Correlating categorical features
+		Observations.
+		Decisions.
+	Correlating categorical and numerical features
+		Observations.
+		Decisions.
+
+Wrangle data
+	Correcting by dropping features
+	Creating new feature extracting from existing
+		Observations.
+		Decision.
+	Converting a categorical feature
+	Completing a numerical continuous feature
+	Create new feature combining existing features
+	Completing a categorical feature
+	Converting categorical feature to numeric
+	Quick completing and converting a numeric feature
+
+Model, predict and solve
+	Logistic Regression
+	KNN or k-Nearest Neighbors
+	Support Vector Machines
+	Naive Bayes classifier
+	Decision Tree
+	Random Forrest
+	Perceptron
+	Artificial neural network
+	RVM or Relevance Vector Machine
+
+	Model evaluation
