@@ -1,0 +1,33 @@
+Assumtions based on data analysis
+We arrive at following assumptions based on data analysis done so far. We may validate these assumptions further before taking appropriate actions.
+
+Correlating.
+
+1.We want to know how well does each feature correlate with Survival. We want to do this early in our project and match these quick correlations with modelled correlations later in the project.
+
+Completing.
+
+1.We may want to complete Age feature as it is definitely correlated to survival.
+2.We may want to complete the Embarked feature as it may also correlate with survival or another important feature.
+
+Correcting.
+
+1.Ticket feature may be dropped from our analysis as it contains high ratio of duplicates (22%) and there may not be a correlation between Ticket and survival.
+2.Cabin feature may be dropped as it is highly incomplete or contains many null values both in training and test dataset.
+3.PassengerId may be dropped from training dataset as it does not contribute to survival.
+4.Name feature is relatively non-standard, may not contribute directly to survival, so maybe dropped.
+
+Creating.
+
+1.We may want to create a new feature called Family based on Parch and SibSp to get total count of family members on board.
+2.We may want to engineer the Name feature to extract Title as a new feature.
+3.We may want to create new feature for Age bands. This turns a continous numerical feature into an ordinal 4.categorical feature.
+5.We may also want to create a Fare range feature if it helps our analysis.
+
+Classifying.
+
+We may also add to our assumptions based on the problem description noted earlier.
+
+1.Women (Sex=female) were more likely to have survived.
+2.Children (Age<?) were more likely to have survived.
+3.The upper-class passengers (Pclass=1) were more likely to have survived.
